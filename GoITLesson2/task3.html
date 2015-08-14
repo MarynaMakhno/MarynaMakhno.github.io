@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        select { overflow:  hidden; }
+
+    </style>
+</head>
+<body>
+<form action="#"> 
+    <label for="name">Name</label>
+    <br/>
+    <input id="name" type="text" name="username">
+    <br/><br/>
+    <label for="email">Email</label>
+    <br/>
+    <input id="email" type="text" name="email1">
+    <p>Sex <br/>
+        <input type="radio" name="sex" value="male">Male
+        <input type="radio" name="sex" value="female"> Female
+    </p>
+    <p>Cerrent status<br/>
+        <input type="checkbox" name="status" value="student"> Student
+            <br/>
+        <input type="checkbox" name="status" value="employed"> Employed
+            <br/>
+        <input type="checkbox" name="status" value="unemployed"> Unemployed
+    </p>
+    <p>Month and Year of birth<br/>
+        <select name="month">
+            <option value="january">January</option>
+            <option value="february">February</option>
+            <option value="march">March</option>
+            <option value="april">April</option>
+        </select>
+        <select name="year">
+            <option value="1980">1980</option>
+            <option value="1981">1981</option>
+            <option value="1982">1982</option>
+            <option value="1983">1983</option>
+        </select>
+    </p>
+    <p> Skills and Technologies <br/>
+        <label>
+            <select size="10" multiple="multiple">
+                <optgroup label="Tech skills">
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="git">git</option>
+                </optgroup>
+                <optgroup label="Soft skills">
+                    <option value="Time management">Time Management</option>
+                    <option value="Proactivity">Proactivity</option>
+                    <option value="Teamwork">Teamwork</option>
+                    <option value="Leadership">Leadership</option>
+                </optgroup>
+            </select>
+        </label>
+    </p>
+    Photo <br/>
+            <input type="file" value="Choose File" name="photo">
+
+    <br/><br/>
+    <input type="submit" value="Save" />
+</form>
+</body>
+</html>
