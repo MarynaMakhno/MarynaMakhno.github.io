@@ -1,0 +1,121 @@
+h1 {margin: 40px 50px 50px ;
+    font-size: 28px;
+    color: #35495a;
+    width: 870px;
+    font-family: Trebuchet MS;
+}
+div.block1, div.block2, div.block3 {
+    display: inline-block;
+    width: 280px;
+    float: left;
+    border-radius: 5px;
+}
+div.block1, div.block3 {
+    position: relative;
+    border: 1px solid #edeef0;
+    z-index: 1;
+}
+.block1, .block3 {
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Trebuchet MS;
+}
+.block2 {
+    background-color: #fff;
+    border: 4px solid #ee8129;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Trebuchet MS;
+    box-shadow: 0 0 5px 3px #cbe2ef;
+    position: relative;
+    z-index: 3;
+    margin-top: -6px;
+}
+.header1 {
+    background-color: #37c1d2;
+    padding: 20px;
+    font-size: 24px;
+    color: #fff;
+}
+.header2 {
+    background-color: #ee8129;
+    padding: 20px;
+    font-size: 24px;
+    color: #fff;
+}
+.header3 {
+    background-color: #1cb699;
+    padding: 20px;
+    font-size: 24px;
+    color: #fff;
+}
+p {
+    font-size: 24px;
+    color: #35495a;
+    text-align: center;
+}
+.price {
+    text-align: center;
+    color: #35495a;
+    position: relative;
+}
+strong {
+    font-size: 70px;
+}
+.price sup {
+    font-size: 20px;
+    vertical-align: top;
+    font-weight: bold;
+}
+.price sub {
+    font-size: 20px;
+    vertical-align: bottom;
+}
+ul{
+    display: block;
+    padding: 15px;
+    color: #878b93;
+    font-size: 12pt;
+    list-style-type: none;
+
+}
+li{
+    padding: 7px 0 7px 25px;
+    margin-bottom: 1px;
+    text-align: left;
+}
+li:before {
+    content: url(Bullet.png);
+    margin-left: 20px;
+    margin-right: 15px;
+}
+li:nth-child(odd) {
+    background-color: #edf5fd;
+}
+li:nth-child(even) {
+    background-color: #f5f5f6;
+}
+input {
+    margin: -20px 0 30px 0;
+    background-color:#ee8129;
+    color: #fff;
+    padding: 10px;
+    width: 245px;
+    border-radius: 5px;
+    border: 2px solid #ee8129;
+    border-bottom: 2px solid #b3560b;
+    font-weight: bold;
+}
+.block1 input, .block3 input {
+    background-color: #3371a5;
+    border: 2px solid #3371a5;
+    margin: -20px 0 20px 0;
+}
+
+.block2 input:hover {
+    box-shadow: 0 3px 2px #b3560b;
+}
+input:not(block2):hover {
+    box-shadow: 0 3px 2px #16436a ;
+}
