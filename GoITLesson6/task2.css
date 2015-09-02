@@ -1,0 +1,86 @@
+.testimonials {
+    background-image: url(image2.png);
+    background-size: 100%;
+    overflow: hidden;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+h2 {
+    font-size: 38px;
+    color: #3170a8;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.firstword {
+    color: #eb8036
+}
+img {
+    width: 98px;
+    height: 98px;
+    margin-right: 25px;
+}
+.people,
+.people.right,
+.foto,
+.cloud
+{
+    display: inline-block;
+}
+.cloud {
+    position: relative;
+    color: #818181;
+    font-size: 14px;
+    width: 350px;
+    background-color: #ffffff;
+    height: 98px;
+    padding: 4px 12px;
+    box-sizing: border-box;
+}
+.foto {
+    position: absolute;
+    left: -135px;
+    top: 0;
+}
+.people{
+    position: relative;
+    margin-left: 20%;
+    margin-bottom: 2%;
+    width: 125%;
+}
+.people.right {
+    float: left;
+    margin-left: 35%;
+    margin-top: -100px;
+}
+div.cloud:before {
+    content: "";
+    position: absolute;
+    left: -6%;
+    top: 29%;
+    border-style: solid;
+    border-width: 22px 28px 22px 0;
+    border-color: transparent #fff transparent transparent;
+}
+.cust {
+    float: right;
+}
+h3 {
+    color: #3070A8;
+    font-size: 12px;
+    font-style: italic;
+    border-bottom: 1px dotted #959090;
+    margin: 10px 15px;
+    line-height: 1.6em;
+}
+p {
+    margin: 12px 0;
+    padding: 2px 1px;
+    color: #959090;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 14px
+}
