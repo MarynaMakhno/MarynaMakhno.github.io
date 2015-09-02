@@ -2,12 +2,11 @@
     background-image: url(image2.png);
     background-size: 100%;
     overflow: hidden;
-    background-size: cover;
+
     margin: 0;
     padding: 0;
     font-family: "Trebuchet MS", sans-serif;
 }
-
 h2 {
     font-size: 38px;
     color: #3170a8;
@@ -26,7 +25,7 @@ img {
 }
 .people,
 .people.right,
-.foto,
+.avatar,
 .cloud
 {
     display: inline-block;
@@ -41,7 +40,7 @@ img {
     padding: 4px 12px;
     box-sizing: border-box;
 }
-.foto {
+.avatar {
     position: absolute;
     left: -135px;
     top: 0;
@@ -74,12 +73,12 @@ h3 {
     font-size: 12px;
     font-style: italic;
     border-bottom: 1px dotted #959090;
-    margin: 10px 15px;
-    line-height: 1.6em;
+    margin: 2px 5px;
+    line-height: 2.6em;
 }
 p {
-    margin: 12px 0;
-    padding: 2px 1px;
+    margin: 10px 0;
+    padding: 5px 2px;
     color: #959090;
     font-family: "Trebuchet MS", sans-serif;
     font-size: 14px
