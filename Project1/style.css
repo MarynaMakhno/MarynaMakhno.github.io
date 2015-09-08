@@ -234,13 +234,15 @@ input:not(block2):hover {
     background-image: url("image/image2.png");
     background-size: cover;
     font-family: 'Trebuchet MS', sans-serif;
-
+    display: inline-block;
+    width: 100%;
+    margin-top: 60px;
 }
 .testimonials h2 {
     font-size: 38px;
     color: #3170a8;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
     text-transform: uppercase;
     font-weight: normal;
 }
