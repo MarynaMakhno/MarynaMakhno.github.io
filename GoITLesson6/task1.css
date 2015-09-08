@@ -1,10 +1,15 @@
 h1 {
-    margin: 30px 0 50px ;
-    font-size: 28px;
+    margin: 30px 0 0 60px ;
+    font-size: 30px;
     color: #35495a;
-    width: 900px;
+    width: 1023px;
     font-family: Trebuchet MS;
     text-align: center;
+}
+div.blocks{
+    width: 1023px;
+    padding: 50px;
+    margin: auto;
 }
 div.block1, div.block2, div.block3 {
     display: inline-block;
