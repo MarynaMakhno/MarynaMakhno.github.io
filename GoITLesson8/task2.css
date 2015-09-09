@@ -1,6 +1,6 @@
 .arrow {
     height: 44px;
-    width: 50%;
+    width: 55%;
     margin: 50px auto;
     padding: 5px;
     min-width: 500px;
@@ -9,17 +9,17 @@
     background: linear-gradient(#FFCD5D, #FDB61C, #FFCD5D);
 
 }
-div.arrow:after {
-    content: "";
+.arrow:after {content: '';
+    width: 0;
+    height: 0;
     position: absolute;
-    left: 100%;
     top: 0;
-    border: 27px solid transparent;
-    border-left: 15px solid #FFCD5D;
-    background: linear-gradient(#FFCD5D, #FDB61C, #FFCD5D);
-   }
+    right: -10px;
+    border: 28px solid #fff;
+    border-left: 17px solid transparent;
+}
 .text input {
-    width: 85%;
+    width: 80%;
     height: 20px;
 }
 button{
