@@ -98,9 +98,90 @@ header menu li.active a {
     background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
 }
 
+/*___________________________*/
+
+.advantages {
+    text-align: center;
+    font-family: Trebuchet MS;
+    margin: 30px 100px;
+    width: 1023px;
+}
+.advantages h1 {
+    font-size: 26px;
+    color: #41525c;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.advantage {
+    display: inline-block;
+    margin: 10px;
+}
+.advantage img {
+    height: 140px;
+    width: 140px;
+    margin-bottom: 20px;
+}
+.advantage p {
+    width: 300px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #999999;
+    line-height: 2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text h2 {
+    font-size: 30px;
+    color: #3070a8;
+    margin-bottom: 10px;
+}
+
+/*______________________________*/
+
+.middle {
+    background: url("image/bg_middle.png");
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2;
+    padding: 30px;
+}
+.list {
+    margin: 0 150px;
+    width: 1023px;
+}
+.list h2 {
+    margin-right: 300px;
+    text-transform: uppercase;
+    color: #ee8129;
+    font-size: 26px;
+    font-family: Trebuchet MS;
+    padding-bottom: 10px;
+}
+.list p {
+    color: #fff;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.list ul {
+    margin-right: 350px;
+    color: #9d9d9d;
+    font-size: 14px;
+
+}
+.list li {
+    margin-left: 35px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.list li:hover {
+    color: #3070a8;
+}
+
+
+
 /*_______________________________________*/
 
-h1 {
+.prices h1 {
     margin: 30px 0 0 60px ;
     padding: 50px 50px 0px 50px;
     font-size: 30px;
