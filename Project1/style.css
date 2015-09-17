@@ -318,6 +318,7 @@ input:not(block2):hover {
     display: inline-block;
     width: 100%;
     margin-top: 60px;
+
 }
 .testimonials h2 {
     font-size: 38px;
@@ -392,4 +393,77 @@ div.cloud:before {
     color: #959090;
     font-family: "Trebuchet MS", sans-serif;
     font-size: 14px
+}
+
+/*------------------------------*/
+
+.contacts {
+    position: relative;
+    margin: 0;
+
+}
+.contacts_block {
+    position: absolute;
+    top: 45px;
+    left: 250px;
+    width: 500px;
+    color: #666666;
+    font-size: 14px;
+    line-height: 2em;
+}
+.adress {
+    position: absolute;
+    left: 190px;
+    top: 45px;
+}
+.phone {
+    position: absolute;
+    left: 190px;
+    top: 155px;
+}
+.mail {
+    position: absolute;
+    left: 190px;
+    top: 192px;
+}
+.social {
+    position: absolute;
+    left: 190px;
+    top: 235px;
+}
+.contacts_right{
+    position: absolute;
+    margin-top: -18px;
+    width: 650px;
+    height: 350px;
+    left: 560px ;
+
+}
+footer {
+    position: absolute;
+    width: 100%;
+    height: 105px;
+    background-color: #3070a8;
+    color: #fff;
+    font-family: "OpenSans", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 2em;
+    margin-top: 327px;
+}
+
+footer p {
+    position: relative;
+    top: 15%;
+}
+
+footer span {
+    font-weight: bold;
+}
+
+footer a {
+    color: #1d1c1c;
+    font-weight: bold;
+    text-decoration: none;
 }
