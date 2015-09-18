@@ -18,7 +18,7 @@
 h1 {
     font-size: 32px;
     font-weight: normal;
-    padding:  40px 0 0;
+    padding:  50px 0 0;
 }
 h5 {
     font-size: 14px;
@@ -36,7 +36,8 @@ h5 {
 .block-container div,
 .block-container img {
     width: 360px;
-    height: 260px; }
+    height: 260px;
+}
 
 .block-container div, .block-container img {
     position: absolute;
@@ -65,4 +66,48 @@ h5 {
     padding: 110px 185px;
     width: 40px;
     height: 40px;
+}
+
+/* popup*/
+
+.overlay{
+    display: none;
+    z-index: 1002;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    pointer-events: none;
+}
+.popup_showed .overlay {
+    display: block;
+}
+.popup{
+    display: none;
+    z-index: 1002;
+    position: fixed;
+    width: 1104px;
+    top: 222px;
+    left: 50%;
+    margin-left: -556px;
+    border: 3px solid #999;
+    border-radius: 3px;
+
+}
+.popup_showed .popup {
+    display: block;
+}
+.popup_image {
+    display: block;
+    width: 1104px;
+}
+.popup_close {
+    position: absolute;
+    top: -23px;
+    right: 17px;
+    height: 40px;
+    width: 40px;
+    background: #f74c26 url(images/close_icon.png) 14px 15px no-repeat;
 }
